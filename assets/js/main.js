@@ -207,7 +207,7 @@ removeall.addEventListener("click", () => {
     });
     localStorage.removeItem("sites");
   sites = [];
-  
+  display();
   }
 });
   display();
